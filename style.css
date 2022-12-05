@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+}
+
+.bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    center
+      url("https://cdn.pixabay.com/photo/2019/05/19/23/47/clouds-4215608_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-transparent {
+  background: transparent;
+}
+
+.bgc-light,
+input.bgc-light.form-control,
+footer {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 600px) {
+  .mw-25 {
+    max-width: 25%;
+  }
+}
